@@ -31,6 +31,7 @@ const deleteFromCart = async(id)=>{
   }
 }
  const orderNow = async()=>{
+   
    const res = await data.api.cart.orderProd()
    setRefresh(!refresh)
    history.push("/products")
