@@ -32,7 +32,7 @@ const Landing = (props) => {
         <div className="row h-100 w-100 justify-content-center mt-5">
           <div className="col-5">
             {selected === "login" ? (
-              <Register {...props} />
+              <Login {...props} />
             ) : (
               <Login {...props} />
             )}
